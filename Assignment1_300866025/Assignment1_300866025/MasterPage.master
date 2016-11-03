@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrap">
+             <header>
+    <div class="container">
+      <h1><a href="#">Assignment</a></h1>
+      <nav>
+        <ul>
+           <li><a href="homepage.aspx" class="m1">Home</a></li>
+          <li><a href="profile.aspx" class="m2">Profile</a></li>
+          <li><a href="Contact.aspx" class="m3">Contact </a></li>
+
+             
+          
+        </ul>
+      </nav>
+         <div style="margin-left: 10%; margin-top:5%; margin-right: auto; text-align: right;">
+     <img src="../images/logo.jpg" />
+        </div>
+     
+    </div>
+  </header>
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer>
+            </footer>
+    </form>
+</body>
+</html>
