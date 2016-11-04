@@ -13,5 +13,10 @@ namespace Comp229_Assign02
         {
             Page.Title = "Live Food Cafe";
         }
+
+        protected void Indian_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Survey.aspx");
+        }
     }
 }

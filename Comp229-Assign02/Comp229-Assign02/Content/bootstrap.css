@@ -36,6 +36,18 @@ summary {
   display: block;
 }
 
+/*Custom CSS*/
+
+.surveyContainer {
+    position: relative;
+    margin-left: 5%;
+}
+
+.dropDownList {
+    position: relative;
+    margin-left: 10%;
+}
+
 audio,
 canvas,
 video {
@@ -315,7 +327,8 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  
+  /*background-image: url(Images/1478190094407.jpg);*/
 }
 
 input,

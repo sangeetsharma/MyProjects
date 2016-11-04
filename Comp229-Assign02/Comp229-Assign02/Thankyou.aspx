@@ -8,17 +8,26 @@
     LFC wants to make sure that you are being served the Best. We are absolutely committed to make you a happy customer.
     
     For More details you can Contact us or send us emails.
+
+    <br />
+
+    <h4>Survey Summary</h4>
     
    
-     <address>
-        LiveFood Cafe <br />
-        Breakthrough Road, 9945662863 <br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+     <asp:Label runat="server" Text="Label" ID="Firstname"></asp:Label>
+    <br />
+    <asp:Label runat="server" Text="Label" ID="Lastname"></asp:Label>
+    <br />
+    <asp:Label runat="server" Text="Label" ID="Email"></asp:Label>
+    <br />
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+    <h4> Dear customer we will surely take your following Improvement feedback under consideration. </h4>
+    <br /> We really look forward to your feedback in future
+    <asp:Label runat="server" Text="Label" ID="Feedback"></asp:Label>
+    
+
+    
+
+
+    
 </asp:Content>

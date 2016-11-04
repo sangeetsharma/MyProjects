@@ -11,7 +11,13 @@ namespace Comp229_Assign02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Firstname.Text = "First Name :"+(string)Session["FirstName"];
+            Lastname.Text = "Last Name :" + (string)Session["LastName"];
+            Email.Text = "Email :" + (string)Session["Email"];
 
+
+            
+            Feedback.Text = "Feedback :" + (string)Session["Feedback"];
         }
     }
 }

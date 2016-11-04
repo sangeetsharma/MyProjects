@@ -12,6 +12,22 @@ namespace Comp229_Assign02
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            Page.Title = "Take Your Survey Here";
+
+
+            Session["FirstName"] = F_Name.Text;
+            Session["LastName"] = L_name.Text;
+            Session["Email"] = email.Text;
+            Session["Feedback"] = TextBox1.Text;
+            
+
+            if (F_Name.Text!="" && L_name.Text != "")
+            {
+                Response.Redirect("Thankyou.aspx");
+            }
         }
+
+
+       
     }
 }
